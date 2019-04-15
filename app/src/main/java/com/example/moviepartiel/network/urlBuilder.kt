@@ -13,9 +13,9 @@ class UrlBuilder {
     companion object {
 
         private enum class EnvironmentUrlBuilder(val baseUrl: String, val apiKey: String) {
-            PRODUCTION("https://comicvine.gamespot.com/api", "19b3ef4b7fa8157805730b0050f14c3b2686d05e"),
-            DEVELOPMENT("https://comicvine.gamespot.com/api", "19b3ef4b7fa8157805730b0050f14c3b2686d05e"),
-            TEST("https://comicvine.gamespot.com/api", "19b3ef4b7fa8157805730b0050f14c3b2686d05e")
+            PRODUCTION("https://comicvine.gamespot.com/api", ""),
+            DEVELOPMENT("https://comicvine.gamespot.com/api", ""),
+            TEST("https://comicvine.gamespot.com/api", "")
         }
 
         private val requestVal by lazy {
